@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+{% block head %}
+    <title>Download</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/download.css') }}">
+{% endblock %}
+
+{% block content %}
+    <div class="download-option-grid">
+        <div class="download-option">
+            <a href="#" class="download-logo">
+                <img class="windows-logo" alt="windows logo" src="{{ url_for('static', filename='images/windows-logo.webp') }}">
+            </a>
+        </div>
+        <div class="download-option">
+            <a href="#" class="download-logo">
+                <img class="mac-logo" alt="mac logo" src="{{ url_for('static', filename='images/mac-logo.png') }}">
+            </a>
+        </div>
+    </div>
+{% endblock %}

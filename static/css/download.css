@@ -1,0 +1,36 @@
+.download-option-grid{
+    margin: 40px 40px 40px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+}
+
+.download-option{
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    max-width: 450px;
+    height: 500px;
+    padding: 40px 20px;
+    border: 2px solid #121e3e;
+    border-radius: 30px;
+    transition: transform 0.3s ease ;
+}
+
+.download-option:hover{
+    transform: scale(1.05);
+}
+
+.windows-logo{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+.mac-logo{
+    max-width: 100px;
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+}

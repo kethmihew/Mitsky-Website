@@ -1,0 +1,36 @@
+footer{
+    padding-top: 20px;
+    font-size: 11px;
+    background: #0c1227;
+    display: flex;
+    color: #b3b38a;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: auto;
+}
+.footer-copyright{
+    margin-bottom: 20px;
+}
+
+h3{
+    margin: 0;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-sect{
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+.footer-link{
+    text-decoration: none;
+}
+.footer-link:visited{
+    color: #b3b38a;
+}

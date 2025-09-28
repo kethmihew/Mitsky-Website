@@ -1,0 +1,19 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+p{
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #b3b38a;
+    font-size: 30px;
+    font-family: 'Courier New';
+    color: #121e3e;
+}

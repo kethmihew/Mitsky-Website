@@ -1,0 +1,31 @@
+.navbar{
+    background: #0c1227;
+    color: #b3b38a;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    align-items: center;
+}
+.navbar-text-links{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.nav-link{
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+.nav-link:visited{
+    color: #b3b38a;
+}
+
+.nav-link:hover{
+    transform: scale(1.05);
+    color: chocolate;
+}
+
+.logo{
+    height: 120px;
+    width: auto;
+    object-fit: contain;
+}

@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+{% block head %}
+    <title>Homepage</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
+{% endblock %}
+
+{% block content %}
+    <div class="introduction">
+        <img class="app_homepage_image" src="../static/images/app_homepage.png" alt="app homepage image" draggable="false">
+        <div class="intro-text">
+            <h1>Our Protagonist</h1>
+            <p class="intro-para">Meet Mitsky. She’s trying to improve herself — to study more, work smarter, and maybe even shower on time — and we’re here to help her do just that.
+                Because, truthfully, there’s a little bit of Mitsky in all of us. Whether it’s procrastination, low motivation, or everyday struggles, Mitsky is here to support users step
+                step on their journey to better habits.</p>
+        </div>
+    </div>
+    <div class="story">
+        <div class="our-story-text">
+            <h1>Our Story</h1>
+            <p class="story-para">
+                We’re a team of first- and second-year Computer Science students brought together by a shared curiosity and a drive to create. With little experience but a lot of
+                passion, we entered our very first hackathon — eager to challenge ourselves, learn new skills, and bring our ideas to life.
+                <br>
+                <br>
+                What started as a fun idea quickly grew into a project we’re truly proud of. Our teamwork, creativity, and determination paid off when Mitsky won 2nd place overall at
+                the Beginner Hackathon. But this is just the beginning — Mitsky is more than an app; she’s a reminder that change is possible, and that small steps can lead to big growth.
+            </p>
+        </div>
+        <a href="{{ url_for('home_bp.meet_the_team') }}">
+            <img class="hackathon-group" src="../static/images/hackathon_group.png" alt="hackathon group picture" draggable="false">
+        </a>
+    </div>
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'layout.html' %}
+{% block head %}
+    <title>Meet the Team</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/meetTheTeam.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+{% endblock %}
+{% block content %}
+    <div class="meet-the-team">
+        <img class="hackathon-group" src="../static/images/hackathon_group.png" alt="hackathon group picture" draggable="false">
+    </div>
+    <a href="#meet-the-team" class="scroll-to-team-grid" title="Go to members">
+        <i class="fa-solid fa-chevron-down"></i>
+    </a>
+    <h1 class="meet-our-team-heading" id="meet-the-team">Meet Our Team</h1>
+    <div class="member-grid">
+        <div class="team-member">
+            <a href="https://www.linkedin.com/in/kethmi-hewapatha-00320b246/">
+                <img class="team-member-image" src="../static/images/kethmi.jpeg" alt="Kethmi photo">
+            </a>
+            <p class="team-member-name">Kethmi Hewapatha</p>
+            <p class="team-member-para">Second-year Computer Science and Biomedical Science student at the University of Auckland</p>
+        </div>
+        <div class="team-member">
+            <a href="https://www.linkedin.com/in/rafaelcarreon/">
+                <img class="team-member-image" src="../static/images/raf.jpeg" alt="Rafael photo">
+            </a>
+            <p class="team-member-name">Rafael Carreon</p>
+            <p class="team-member-para">Second-year Computer Science and IT Management student at the University of Auckland</p>
+        </div>
+        <div class="team-member">
+            <a href="https://www.linkedin.com/in/levi-jung-156b25288/">
+                <img class="team-member-image" src="../static/images/levi.jpeg" alt="Levi photo">
+            </a>
+            <p class="team-member-name">Levi Jung</p>
+            <p class="team-member-para">Second-year Computer Science, Finance, and Statistics student at the University of Auckland</p>
+        </div>
+        <div class="team-member">
+            <a href="https://www.linkedin.com/in/regina-bi-3b9604387/">
+                <img class="team-member-image" src="../static/images/regina.png" alt="Regina photo">
+            </a>
+            <p class="team-member-name">Regina Bi</p>
+            <p class="team-member-para">First-year Computer Science major at the University of Auckland</p>
+        </div>
+        <div class="team-member">
+            <a href="https://www.linkedin.com/in/spencer-r-63457b303/">
+                <img class="team-member-image" src="../static/images/spencer.jpg" alt="Spencer photo">
+            </a>
+            <p class="team-member-name">Spencer Reinsfield</p>
+            <p class="team-member-para">First-year Statistics major at the University of Auckland</p>
+        </div>
+    </div>
+{% endblock %}
